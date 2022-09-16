@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "app_frontend_tcc",
+    "slug": "app_frontend_tcc",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
