@@ -13,6 +13,4 @@ export const Container = styled.TouchableOpacity`
 export const Title = styled.Text`
     font-family: ${({theme}) => theme.fonts.medium};
     font-size: ${RFValue(14)}px;
-
-    
 `;

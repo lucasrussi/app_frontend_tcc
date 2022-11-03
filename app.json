@@ -3,6 +3,18 @@
     "name": "app_frontend_tcc",
     "slug": "app_frontend_tcc",
     "version": "1.0.0",
+    "plugins": ["react-native-nfc-manager",
+      ["expo-media-library",
+          {
+            "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+            "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+            "isAccessMediaLocationEnabled": true
+          }
+      ]
+    ],
+    "android": {
+      "permissions": ["WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"]
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
